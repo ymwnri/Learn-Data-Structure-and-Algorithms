@@ -22,5 +22,10 @@ def selection_sort(my_list):
             my_list[i], my_list[index] = my_list[index], my_list[i]
         return my_list
 
+# Test the function
+my_list = [6, 2, 9, 7, 4, 8] 
+selection_sort(my_list)
+print(my_list)
+
         
        
